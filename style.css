@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(228, 225, 225);
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    max-width: 100%;
+    
+}
+
+.navbar{
+    text-align: center;
+    background-color: rgb(62, 62, 63);
+    color: rgb(230, 223, 223);
+    height: 50px;
+    opacity: 0.8;
+    width: 100%;
+}
+
+.navbar > ul> li{
+    
+    display: inline-block;
+    width: 120px;
+    padding: 20px;
+    border: 2px solid rgb(10, 3, 71);
+    box-shadow: 5px 10px 30px rgb(23, 4, 194);
+}
+
+.navbar > ul> li:hover{
+    cursor: pointer;
+    color: rgb(193, 189, 189);
+}
+.intro{
+    
+    width: 100%;
+    color: aliceblue;
+    display: inline;
+    display: flex;
+
+}
+a{
+    text-decoration: none;
+}
+.intro > span {
+    margin-top: 10%;
+    margin-left: 30px;
+}
+.flex{
+    display: inline-block;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.svg{
+    width: 50%;
+    float: right;
+}
+
+.svg > img{
+    height: 500px;
+    margin-left: 150px;
+}
+
+.margin{
+    margin-top: 50px;
+}
+
+.padding{
+    padding: 12px;
+}
+
+.downButton{
+    width: 150px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: rgb(39, 5, 189);
+    color: wheat;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: 1px solid snow;
+    margin-left: 4px;
+    margin-top: 17px;
+}
+.downButton:hover{
+    cursor: pointer;
+    box-shadow: 4px 4px 4px rgb(7, 48, 182);
+    background-color: rgb(26, 13, 201);
+    
+}
+.b1{
+    float: right;
+}
+.b1 > a> img{
+    width: 20px;
+    height: 50px;
+    margin-left: 12px;
+}
+
+
+/* Skills section css */
+.images{
+    width: 25%;
+    border: 2px solid rgb(10, 3, 71);
+    height: 280px;
+    float: left;
+    margin: 12px;
+    border-radius: 8px;
+    margin-left: 5%;
+}
+
+/* .middle{
+    margin-left: 150px;
+} */
+
+.images:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 20px rgb(3, 2, 95);
+
+    
+}
+.images > img {
+
+    margin-top: 10px;
+    width: 60%;
+    margin-left: 70px;
+    height: 200px;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.skills{
+    margin-top: 103px;
+    margin-left: 25px;
+    height: 350px;
+    
+}
+.left{
+    
+    margin-left: 20px;
+    
+}
+
+.repoButton{
+    border: 1px solid wheat;
+    width: 150px;
+    background-color: rgb(8, 5, 153);
+    margin-left: 70px;
+    border-radius: 12px;
+    height: 30px;
+    margin-top: 4px;
+}
+.repoButton:hover{
+    cursor: pointer;
+    
+    background-color: rgb(10, 12, 156);
+}
+img{
+    fill: aliceblue;
+}
+
+ul > img{
+    width: 20px;
+    margin-left: 12px;
+    margin-right: 2px;
+    height: 50px;
+    float: right;
+}
+
+/* about section css */
+.container{
+    width: 50%;
+    border: 2px solid rgb(18, 2, 161);
+    height: 285px;
+    margin-top: 12px;
+    float: left;
+    border-radius: 12px;
+    margin-left: 12px;
+}
+
+
+s
+legend{
+    font-size: 20px;
+}
+
+.myimage{
+    /* border: 1px solid purple; */
+    height: 300px;
+    width: 45%;
+    display: flex;
+    float: right;
+    border-radius: 12sspx;
+    margin-right: 20px;
+    margin-top: 24px;
+}
+
+.myimage > img{
+    width: 100%;
+    border-radius: 12px;
+    height: 600px;
+    max-width: 100%;
+}
+
+
+.info{
+    padding: 12px;
+    
+}
+.info > p{
+    margin-top: 12px;
+    
+}
+
+/* contact section css */
+.content{
+    margin-left: 80px;
+    margin-right: 35px;
+    margin-top: 25px;    
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    
+}
+
+form > input{
+    background-color: rgb(230, 236, 236);
+    width: 300px;
+    height: 20px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    color: rgb(3, 3, 3);
+
+    box-shadow: 5px 10px 30px rgb(194, 4, 4);
+
+}
+
+
+.heading{
+    text-align: center;
+    margin-top: 14px;
+}
+.tag-line{
+    text-align: center;
+    margin-top: 14px;
+}
